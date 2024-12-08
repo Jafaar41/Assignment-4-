@@ -1,4 +1,5 @@
 1 --->
+
 SELECT DISTINCT orderNumber
 FROM orderdetails
 WHERE productcode LIKE 'S18%' AND priceEach > 100;
